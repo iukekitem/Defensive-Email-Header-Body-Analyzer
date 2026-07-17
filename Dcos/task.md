@@ -1,8 +1,0 @@
-- `[x]` Setup project directory, requirements.txt, and README.md
-- `[x]` Generate test sample emails in `samples/`
-- `[x]` Implement email parser (`parser.py`)
-- `[x]` Implement rules and scoring engine (`rules.py`)
-- `[x]` Implement CLI dashboard and JSON reporter (`reporter.py`)
-- `[x]` Implement main orchestration entrypoint (`analyzer.py`)
-- `[x]` Implement verification test runner (`test_analyzer.py`)
-- `[x]` Verify execution, print reports, and generate walkthrough
