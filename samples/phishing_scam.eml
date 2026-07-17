@@ -1,0 +1,41 @@
+From: "Netflix Billing" <billing@netflix.com>
+To: subscriber@example.com
+Subject: URGENT: Your Netflix subscription is suspended! Immediate action required
+Date: Fri, 17 Jul 2026 12:10:00 -0400
+Return-Path: <billing@netflix.com>
+Message-ID: <msg-33333@netflix.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="boundary-scam"
+
+--boundary-scam
+Content-Type: text/plain; charset="utf-8"
+
+URGENT: Your Netflix membership is suspended. Immediate action is required to restore your access.
+
+We were unable to process your payment for this month. To update your billing info, visit:
+http://192.168.0.1/netflix-login
+
+Alternatively, confirm your details here:
+https://netfl1x-billing-update.com/account
+
+If you have questions, visit the Help Center:
+https://netflix.com/help
+
+Thanks,
+Netflix Team
+
+--boundary-scam
+Content-Type: text/html; charset="utf-8"
+
+<html>
+<body>
+<p><strong>URGENT:</strong> Your Netflix membership is <strong>suspended</strong>. Immediate action is required to restore your access.</p>
+<p>We were unable to process your payment for this month. To update your billing info, please click below:</p>
+<p><a href="http://192.168.0.1/netflix-login">Update payment immediately (IP Link)</a></p>
+<p><a href="https://netfl1x-billing-update.com/account">Confirm Account Details (Mismatched Link)</a></p>
+<p>If you have questions, please visit the <a href="https://netflix.com/help">Help Center</a>.</p>
+<p>Thanks,<br>Netflix Team</p>
+</body>
+</html>
+
+--boundary-scam--

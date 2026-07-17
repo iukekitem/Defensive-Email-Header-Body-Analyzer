@@ -1,0 +1,19 @@
+From: "PayPal Support" <support@paypal.com>
+To: target-user@example.com
+Subject: Please verify your PayPal account
+Date: Fri, 17 Jul 2026 12:05:00 -0400
+Return-Path: <attacker@scammy-server.xyz>
+Message-ID: <msg-22222@scammy-server.xyz>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Received-SPF: fail (google.com: domain of attacker@scammy-server.xyz designates 198.51.100.2 as permitted sender)
+Authentication-Results: mx.google.com; spf=fail (google.com: domain of attacker@scammy-server.xyz designates 198.51.100.2 as permitted sender) dkim=fail
+
+Dear Customer,
+
+We noticed some unusual activity on your PayPal account. For security purposes, please review your recent transactions.
+
+If you did not authorize this, please contact support.
+
+Sincerely,
+PayPal Security Team

@@ -1,0 +1,45 @@
+From: newsletter@trustedservice.com
+To: user@example.com
+Subject: Your Weekly Security Digest
+Date: Fri, 17 Jul 2026 12:00:00 -0400
+Return-Path: <bounce-1234@trustedservice.com>
+Message-ID: <msg-11111@trustedservice.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary-safe"
+Received-SPF: pass (google.com: domain of bounce-1234@trustedservice.com designates 192.0.2.1 as permitted sender)
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bounce-1234@trustedservice.com designates 192.0.2.1 as permitted sender) dkim=pass header.i=@trustedservice.com
+
+--boundary-safe
+Content-Type: multipart/alternative; boundary="boundary-safe-alt"
+
+--boundary-safe-alt
+Content-Type: text/plain; charset="utf-8"
+
+Hello User,
+
+Here is your weekly security digest. Please read the full report online:
+https://trustedservice.com/digest/45
+
+Thank you,
+Security Team
+
+--boundary-safe-alt
+Content-Type: text/html; charset="utf-8"
+
+<html>
+<body>
+<p>Hello User,</p>
+<p>Here is your weekly security digest. Please read the <a href="https://trustedservice.com/digest/45">full report online</a>.</p>
+<p>Thank you,<br>Security Team</p>
+</body>
+</html>
+
+--boundary-safe-alt--
+--boundary-safe
+Content-Type: application/pdf; name="digest_july.pdf"
+Content-Disposition: attachment; filename="digest_july.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQKJVRleHQgZmlsZSBjb250ZW50cyBmb3IgdGVzdGluZw==
+
+--boundary-safe--

